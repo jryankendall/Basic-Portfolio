@@ -65,6 +65,7 @@
     float: left;
     margin-right: 24px;
     margin-bottom: 12px;
+    border: solid #777777 2px;
 }
 
 .contenttext {
@@ -73,22 +74,71 @@
     color: #777777;
 }
 
-.aboutheader {
+.contentheader {
     width: 240px;
     padding: 0px 0px 5px;
 }
 
-.aboutheader > h1 {
+.contentheader > h1 {
     color: cadetblue;
 }
 
 .footer {
     background-color: #666666;
-    border-top: solid cadetblue 6px;
+    border-top: solid cadetblue 8px;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
     color: whitesmoke;
+}
+
+/*.portfoliogrid {
+    display: grid;
+    grid-template-columns: 303px 303px 304px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column: 2 / 6;
+    background-color: blue;
+    
+}
+
+.portfoliogrid > img {
+    justify-content: space-around;
+}*/
+
+.portfoliobox {
+    display: flex;
+    width: 910px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.folioitem {
+    width: 280px;
+    height: 260px;
+}
+
+.itemcontainer {
+    position: relative;
+    width: 280px;
+    height: 260px;
+    margin: 0px 0px 24px 0px;
+}
+
+.imagebanner {
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    background-color: cadetblue;
+    bottom: 20px;
+    opacity: .95;
+}
+
+.imagebanner > p {
+    padding: 4px;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
