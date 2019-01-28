@@ -21,4 +21,4 @@
 ## Contact
 
 - e-mail: jryankendall@gmail.com
-- LinkedIn: https://www.linkedin.com/in/jed-kendall-322792b8/
+- LinkedIn: https://www.linkedin.com/in/jed-kendall/
